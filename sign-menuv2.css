@@ -1,0 +1,66 @@
+body {
+  font-size: 23px;
+  background-color: gray;
+}
+
+.sign-bg {
+  max-width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+.sign-fg {
+  max-width: 350px;
+  max-height: 500px;
+  background-color: #135CB5;
+  border-radius: 16px;
+  border: 30px white solid;
+  text-align: center;
+  padding: 0 25px 0 22px;
+  line-height: 1rem;
+}
+
+.sign-logo {
+  width: 150px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.rcr-nav-sign {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: white;
+}
+
+.distance {
+  padding: 8px 0;
+}
+
+.rcr-btn {
+  background-color: transparent;
+  border: 3px solid transparent;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.rcr-link {
+  background-color: transparent;
+}
+
+.rcr-link:hover {
+  background-color: #EB1C27;
+  border: 3px solid white;
+  border-radius: 5px;
+}
